@@ -1,10 +1,9 @@
 
-//
+
 [rewrite_local]
 ^https:\/\/poster\.leminet\.cn\/v01\/profile url script-response-body hbsj.js
 [mitm] 
 hostname = poster.leminet.cn
-//
 
 
 var body = $response.body;
